@@ -124,6 +124,17 @@ body {
   font-weight: 500;
 }
 
+.attribution p,
+a {
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.attribution a {
+  text-shadow: 1px 1px 2px #000000;
+}
+
 /* making it for desktop */
 
 @media screen and (min-width: 768px) {
@@ -158,5 +169,10 @@ body {
     margin-top: 20px;
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .attribution p {
+    margin-top: 10rem;
+    text-align: center;
   }
 }
